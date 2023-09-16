@@ -39,6 +39,7 @@ para almacenar valores se le colocan los dos guiones*/
 
 html{
     font-size: 62.5%;
+    background-color: #BB9457;
 }
 body{
     font-size: 16px;
@@ -67,6 +68,23 @@ body{
 
 .infoempresa{
     font-size: 50px;
-    color: var(--ginda);    
+    color: var(#fff);    
     font-family: 'Playfair';
+}
+
+.my-card
+{
+    position:absolute;
+    left:40%;
+    top:-25px;
+    border-radius:70%;
+}
+
+.textocard{
+    color: var(--cafeclaro);
+}
+
+.iconocarta{
+    width: 1rem;
+    height: 1rem;
 }
