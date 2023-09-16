@@ -1,0 +1,72 @@
+/*
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+CON ESTA CONVERSION DE TAMAÑO, NOS PERMITIRA USAR REM
+Que es una unidad de medida para equipos con
+grandes dimensiones en sus pantallas
+
+puede decirse que 200px = 20rem
+por lo tanto 10px son igual a 1rem
+*/
+
+/*CUSTOM PROPETIERS
+paleta de colores
+para almacenar valores se le colocan los dos guiones*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Playfair+Display:wght@900&family=Titillium+Web&display=swap');
+:root{
+    --ginda: #6F1D1B;
+    --kaki: #BB9457;
+    --roble: #3c2416;
+    --cafe: #99582A;
+    --cafeclaro: #FFE6A7;
+}
+
+.fondobody{ 
+    background: url("../img/fondo.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.logo{
+    height: 5rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+
+#valorespannel{
+    padding-left: 1rem;
+}
+
+#textomapa{
+    color: var(--roble);
+    background-color: var(--kaki);
+}
+
+.bannertexto{
+    margin-top: 10rem;
+    color: var(--kaki);
+    font-family: 'Titillium';
+}
+
+.bannerinfo{
+    font-size: 14px;
+    color: var(--cafeclaro);
+    text-align: justify;
+}
+
+.infoempresa{
+    font-size: 50px;
+    color: var(--ginda);    
+    font-family: 'Playfair';
+}
