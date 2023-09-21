@@ -39,7 +39,7 @@ para almacenar valores se le colocan los dos guiones*/
 
 html{
     font-size: 62.5%;
-    background-color: #BB9457;
+    background-color:var(--kaki);
 }
 body{
     font-size: 16px;
@@ -72,7 +72,7 @@ body{
 }
 
 .infoempresa{
-    font-size: 50px;
+    font-size: 6rem;
     color: var(#fff);    
     font-family: 'Playfair';
 }
@@ -115,7 +115,36 @@ body{
     background-color: var(--kaki);
 }
 
-h3{
-    font-size: 3rem;
+.fondocafe{
+    background-color: var(--kaki);
+}
+
+.tituloscafe{
+    font-size: 5rem;
     text-align: center;
+    color: var(--roble);
+    font-family: "Playfair";
+}
+
+.textocafeizq{
+    text-align: left;
+    font-family: "Josefin";
+    padding-left: 30rem;
+
+}
+
+.textocafeder{
+    text-align: right;
+    font-family: "Josefin";
+    padding-right: 30rem;
+}
+
+h3{
+    font-size: 5rem;
+    text-align: center;
+}
+
+h4{
+    font-size: 4rem;
+    font-family: "Playfair";
 }
