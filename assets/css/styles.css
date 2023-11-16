@@ -34,7 +34,7 @@ para almacenar valores se le colocan los dos guiones*/
 }
 
 .logo{
-    height: 5rem;
+    height: 4rem;
 }
 
 html{
@@ -138,6 +138,7 @@ body{
     font-family: "Josefin";
     padding-right: 30rem;
 }
+
 
 h3{
     font-size: 5rem;
